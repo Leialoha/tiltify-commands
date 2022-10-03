@@ -1,0 +1,29 @@
+nav:
+  - Home: 'index.md'
+  - Getting Started: 
+    - Getting Started: 'gettingstarted/index.md'
+  - Configuration:
+    - Basic:
+      - Example Config: 'configuration/basic/index.md'
+      - Token: 'configuration/basic/token.md'
+      - Campaigns: 'configuration/basic/campaigns.md'
+      - Actions:
+        - Actions: 'configuration/basic/actions/index.md'
+        - Type: 'configuration/basic/actions/type.md'
+        - Amount: 'configuration/basic/actions/amount.md'
+        - Commands: 'configuration/basic/actions/commands.md'
+        - Messages: 'configuration/basic/actions/messages.md'
+        - Variables: 'configuration/basic/actions/variables.md'
+    - Advanced:
+      - Prerequisites: 'configuration/advanced/index.md'
+      - Action Calls: 'configuration/advanced/calls.md'
+  - How To's:
+    - Creating Tokens: 'howto/tokens.md'
+    - Getting Campaign IDs: 'howto/campaignids.md'
+
+site_name: Tiltify Commands - Documentation
+site_description: Tiltify Commands is a Minecraft plugin made to bridge the gap between Tiltify donations and Minecraft rewards, with the primary scope to be user friendly!
+site_author: Leialoha
+
+docs_dir: docs
+theme: readthedocs

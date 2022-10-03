@@ -1,0 +1,36 @@
+tiltify:
+  # Please read https://tiltify-commands.readthedocs.io/en/latest/howto/tokens/ on how to get a token
+  token: F00000000000000000000000000000000000000000000000000000000000000F
+
+  # Provide campaign(s) ids to watch for
+  # Please read https://tiltify-commands.readthedocs.io/en/latest/howto/campaignids/ on how to get a campaign id
+  campaigns:
+    - 123
+    - 456
+
+  actions:
+    # Follow this syntax for the plugin to work properly
+    #[Insert action name]:
+    #  type: [Insert action type] # The action type to look for. Total - Runs when a collective amount dollars is reached. Once - Runs once per donation.
+    #  amount: [Insert amount] # The amount provided to check for. Example: 10 will activate once a donation reaches $10 USD
+    #  commands: # Commands to run on the server! If an asterisk (*) is provide before the command, the player will send the command! DO NOT PROVIDE THE FIRST FORWARD SLASH!
+    #    - "[Insert Command]"
+    #    - "[Insert Command 2]"
+    #  text: # Messages to broadcast on the server! If an asterisk (*) is provide before the message, it will send it to the player!
+    #    - "[Insert Message]"
+    #    - "[Insert Message 2]"
+
+    myaction:
+      type: TOTAL
+      amount: 10
+      commands:
+        - "broadcast &6Thank you %player for donating $%amount to %campaignName"
+        - "broadcast &6This will announce once a person donates a total of atleast $10"
+        - "*say This command will be sent as the player!"
+      text:
+        - "*&b&lNEW DONATION!"
+        - "*&f&lAMOUNT: §f%amount"
+        - "*&f&lTOTAL AMOUNT: §f%totalAmount"
+        - "*&f&lCAMPAIGN: §f%campaignName"
+        - "*&f&lCAMPAIGN ID: §f%campaignId"
+        - "*&f&lWHEN: §f%campaignDate"
