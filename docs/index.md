@@ -1,9 +1,9 @@
 Tiltify Commands
 ================
 
-Welcome to the official documentation for Tiltify Commands (Coming Soon).
+Welcome to the official documentation for Tiltify Commands.
 
-This documentation was written based off of version 0.0.1-SNAPSHOT. These docs are aimed to be a reference or a guide for people trying to understand how Tiltify Commands works.
+This documentation was written based off of version 1.0.0. These docs are aimed to be a reference or a guide for people trying to understand how Tiltify Commands works.
 
 Contribute to the docs at [GitHub](https://github.com/Leialoha/tiltify-commands).
 
