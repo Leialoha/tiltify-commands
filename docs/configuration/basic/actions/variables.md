@@ -13,8 +13,8 @@ Variables are used in conjunction with commands and messages.
 | %campaignOwner   | Campaign owner of the donation      |
 | %campaignCurrent | Total donation amount               |
 | %campaignGoal    | The goal of the campaign            |
-| %campaignCause   | Campaign cause of the donation      |
-| %campaignEvent   | Campaign event of the donation      |
+<!-- | %campaignCause   | Campaign cause of the donation      | -->
+<!-- | %campaignEvent   | Campaign event of the donation      | -->
 
 Here is an example on how to use a variable:
 

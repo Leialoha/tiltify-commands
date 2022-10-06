@@ -16,7 +16,7 @@ tiltify:
       commands:
         - "[Insert Command]"
         - "[Insert Command 2]"
-      text:
+      messages:
         - "[Insert Message]"
         - "[Insert Message 2]"
 ```

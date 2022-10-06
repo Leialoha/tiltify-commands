@@ -23,7 +23,7 @@ tiltify:
       type: ONCE
       amount: 1
       text:
-        - "This action will only excute if a user donates between 1 and 5 dollars"
+        - "This action will only excute if a user donates between 1 and 10 dollars"
     MyThirdAction:
       amount: 0
       text:

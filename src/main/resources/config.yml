@@ -16,7 +16,7 @@ tiltify:
     #  commands: # Commands to run on the server! If an asterisk (*) is provide before the command, the player will send the command! DO NOT PROVIDE THE FIRST FORWARD SLASH!
     #    - "[Insert Command]"
     #    - "[Insert Command 2]"
-    #  text: # Messages to broadcast on the server! If an asterisk (*) is provide before the message, it will send it to the player!
+    #  messages: # Messages to broadcast on the server! If an asterisk (*) is provide before the message, it will send it to the player!
     #    - "[Insert Message]"
     #    - "[Insert Message 2]"
 
@@ -24,10 +24,9 @@ tiltify:
       type: TOTAL
       amount: 10
       commands:
-        - "broadcast &6Thank you %player for donating $%amount to %campaignName"
-        - "broadcast &6This will announce once a person donates a total of atleast $10"
-        - "*say This command will be sent as the player!"
-      text:
+        - "say This command was ran by the console"
+        - "*say This command was ran by the player"
+      messages:
         - "*&b&lNEW DONATION!"
         - "*&f&lAMOUNT: §f%amount"
         - "*&f&lTOTAL AMOUNT: §f%totalAmount"

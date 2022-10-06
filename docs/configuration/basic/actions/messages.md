@@ -1,4 +1,4 @@
-Texts / Messages
+Messages
 ================
 
 These are messages to broadcast on the server.
@@ -11,7 +11,7 @@ tiltify:
   actions:
     randomActionName:
       ...
-      text:
+      messages:
         - "[Insert Message]"
         - "[Insert Message 2]"
 ```

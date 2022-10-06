@@ -6,8 +6,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.github.leialoha.tiltify</groupId>
-	<artifactId>tiltify</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>tiltify-commands</artifactId>
+	<version>1.0.0</version>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -35,6 +35,11 @@
 			<version>1.19.2-R0.1-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>                                         
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+            <version>2.13.3</version>
+		</dependency> 
 	</dependencies>
 
 	<build>

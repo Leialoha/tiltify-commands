@@ -1,2 +1,11 @@
-site
+
+# Target folders
 target/
+
+# MacOS files
+.DS_Store
+
+# Other files
+site
+dependency-reduced-pom.xml
+.vscode/
